@@ -1,14 +1,12 @@
 # JavaHardInterviewQuestions
 
-This is to give some heads up on the advanced java interview questions. I have given answers for some and left blank for some. Welcome to accept
-the mistakes or enhancements in the answers.
+This is to give some heads up on the advanced java interview questions. I have given answers for some and left blank for some. Welcome to accept the mistakes or enhancements in the answers.
 
 Try to be nice when pointing the mistakes.
 
 These questions test not only the programming skill but also the approach, problem solving skill etc. technically and non-technically. 
 
-There are lot of programmers around the world. Nowadays even a kid can program. But what makes a normal developer to stand out uniquely as pexrt
-is their apprach to solve a problem.
+There are lot of programmers around the world. Nowadays even a kid can program. But what makes a normal developer to stand out uniquely as expert is their approach to solve a problem.
 
 Let us discuss few aspects. I will be updating as I encounter new topics and questions.
 
@@ -32,8 +30,7 @@ This is an indrect question. You are expected to answer about ACID properties.
 
 5. How to handle memory leak ?
 
-This is a general question without specifcally asking about Garbage collections. You can talk about what you did to avoid garbage collection
-such as closing of resource objects, using primitive data type than wrapper classes, using StringBuffer or StringBuilder
+This is a general question without specifcally asking about Garbage collections. You can talk about what you did to avoid garbage collection such as closing of resource objects, using primitive data type than wrapper classes, using StringBuffer or StringBuilder
 for dynamic string generation instead of "+" for Strinig concatenation, releasing the object by pointing them to null after its usage etc.
 
 You can also talk about increasing the heap memery size in the JVM.
@@ -99,3 +96,6 @@ public static void main(String[] args) {
 20. Can static members be accessed in non-static methods?
 Yes
 
+21. Which datatype is better to store password? Why?
+
+char array is the best data type and more secured than String.
