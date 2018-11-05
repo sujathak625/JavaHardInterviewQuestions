@@ -99,3 +99,18 @@ Yes
 21. Which datatype is better to store password? Why?
 
 char array is the best data type and more secured than String.
+
+
+22. How will you make an object immutable?
+
+23. What version of Junt you use or used?
+
+24. Name some annotations of Junit tests.
+
+25. Difference between Set and List?
+
+25. In a Restful service, how would you handle a scenario where resource is not available for a particular input value?
+
+26. How will you convert a response to json object?
+
+27. Describe overriding?
